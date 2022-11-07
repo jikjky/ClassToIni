@@ -6,6 +6,8 @@
 //base class를 ClassToIni
 public class Test : ClassToIni
 {
+    //세션 네임을 지정가능 기본은 클레스 이름
+    [SectionName("Base")]
     public int Test1 { get; set; } = 0; //기본값
     public string Test2 { get; set; } = ""; //기본값
 
